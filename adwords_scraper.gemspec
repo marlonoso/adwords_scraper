@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = ""
 
   gem.add_dependency "mechanize"
+  gem.add_dependency "random_user_agent"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
